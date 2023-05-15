@@ -1,0 +1,58 @@
+import React, { useEffect, useState } from "react";
+
+const PokemonList = () => {
+  const [pokemonList, setPokemonList] = useState([]);
+
+  useEffect(() => {
+    const fetchPokemonList = async () => {
+      try {
+        const response = await fetch("https://pokeapi.co/api/v2/pokemon?limit=20");
+        const data = await response.json();
+        setPokemonList(data.results);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+
+    fetchPokemonList();
+  }, []);
+
+  return (
+    <div>
+      {pokemonList.map((pokemon, index) => (
+        <PokemonDetails key={index} url={pokemon.url} />
+      ))}
+    </div>
+  );
+};
+
+const PokemonDetails = ({https://pokeapi.co/}) => {
+  const [pokemonDetails, setPokemonDetails] = useState(null);
+
+  useEffect(() => {
+    const fetchPokemonDetails = async () => {
+      try {
+        const response = await fetch(url);
+        const data = await response.json();
+        setPokemonDetails(data);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+
+    fetchPokemonDetails();
+  }, [url]);
+
+  if (!pokemonDetails) {
+    return <div>Loading...</div>;
+  }
+
+  return (
+    <div>
+      <h3>{pokemonDetails.name}</h3>
+      <img src={pokemonDetails.sprites.front_default} alt={pokemonDetails.name} />
+    </div>
+  );
+};
+
+export default PokemonList;
