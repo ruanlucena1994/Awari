@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Links para Artigos</title>
+</head>
+<body>
+  <h1>Links para Artigos</h1>
+  
+  <ul>
+    <li><a href="http://www.editoraopirus.com.br/uploads/bh/materiais/historia/bh-historia-6-ano-5f628fbb9dab1.pdf">Grecia antiga</a></li>
+    <li><a href="https://books.google.com.br/books?hl=pt-PT&lr=&id=eXADAAAAQBAJ&oi=fnd&pg=PT66&dq=mitologia&ots=WTUh98cEgz&sig=zMdKeacLzH7LyKb4sVSP9a2ZTOk">Mitologia</a></li>
+    <li><a href="https://books.google.com.br/books?hl=pt-PT&lr=&id=CMqfDQAAQBAJ&oi=fnd&pg=PT3&dq=mitologia+n%C3%B3rdica&ots=N2KAAy4BzQ&sig=3IodwKDymVWi-fxxHaIrO6oMZX4">Mitologia nórdica</a></li>
+  </ul>
+</body>
+</html>
