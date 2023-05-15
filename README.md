@@ -67,4 +67,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
+###
+História do componente Heart:
+
+Como um usuário, desejo ter a opção de marcar um item como favorito ao clicar no ícone de coração, para que eu possa facilmente acessar meus itens favoritos posteriormente.
+
+História do componente List:
+
+Como um usuário, desejo visualizar uma lista de itens em uma interface limpa e organizada, para que eu possa encontrar facilmente o que estou procurando.
+
+História do componente ListItem:
+
+Como um usuário, desejo ver informações relevantes sobre cada item na lista, como título, descrição e imagem, para que eu possa tomar decisões informadas sobre qual item selecionar.
+****
+
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
